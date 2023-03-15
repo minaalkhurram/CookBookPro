@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Book Antiqua';
+    
+    
+   
+}
+body{
+
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    padding-bottom: 80px;
+    background-color: #FAF3EE;
+}
+
+.Chefs{
+    
+    background-color: #FAF3EE;
+    
+
+}
+nav{
+  
+    display: flex;
+    
+    justify-content:right;
+  
+    align-items: center;
+  
+    min-height: 9vh;
+    
+    background-color: #053B47;
+  }
+  
+  .heading {
+  
+    color: #FAF3EE;
+    margin-left: 100px;
+    text-transform: uppercase;
+    height:40px;
+    width: 100px;
+    background-image: url(logotexturecropped.jpg);
+   background-size: cover;
+    
+  }
+  
+  .nav-links {
+  
+    display: flex;
+  
+    justify-content: right;
+  
+    width: 95%;
+    margin-top: -30px;
+  }
+  .text{
+      
+    display: flex;
+  
+    justify-content: right;
+  
+    width: 90%;
+  }
+  
+  .nav-links li {
+  
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+  
+    color: #FAF3EE;
+  
+    text-decoration: none;
+  
+    letter-spacing: 1px;
+  
+   /* font-weight: bold;*/
+  
+    font-size: 14px;
+  
+    padding: 12px 20px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+
+  
+  }
+  
+  .nav-links a:hover:not(.active) {
+  
+    background-color: #E8B867;
+  
+  }
+  
+  .nav-links li a.active {
+  
+    background-color: #598B92;
+  
+  }
+.Chefs h1{
+    text-align: center;
+    font-weight: bold ;
+    color:  #053B47;
+    padding-top: 0%;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    padding-top: 50px;
+    
+}
+.Chefs p{
+    text-align: center;
+    color:  #053B47;
+    font-weight: bold ;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+
+    left: 20px;
+    right: 20px;
+}
+.Chefs h1::after{
+    content: '';
+    background:#E8b867;
+    display: block;
+    height :3px;
+    width: 170px; 
+    margin: 20px auto 5px; 
+}
+.Chefs .row{
+    margin-top: 30px;
+}
+.col-md-4{
+    margin: 40px auto;
+}
+.profile{
+    padding: 70px 10px 10px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(left, #f8e1a2, #f1c475);
+   
+    backface-visibility: hidden;
+}
+.profile img{
+   top: -60px;
+   position: absolute;
+   background-color: #FAF3EE;
+   border: 3px solid  #598b92;
+   shape-image-threshold:inherit;
+}
+.user{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+
+}
+.profile h3{
+    font-size: 10px;
+    margin-top: 15px;
+    color:#E8b867;
+}
+
+blockquote{
+    font-size:16px;
+    line-height: 30px;
+}
+blockquote::before{
+    content: '\201C';
+    font-size: 50px;
+    position: relative;
+    color: #053B47;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after{
+    content: '\201C';
+    font-size: 50px;
+    position: relative;
+    color: #053B47;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
