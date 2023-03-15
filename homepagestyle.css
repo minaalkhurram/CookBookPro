@@ -186,7 +186,7 @@ html{
     height: 200px;
   }
 .card:hover{
-background-image: url(images/imggpot.jpg);
+background-image: url(images/imgbox2.jpg);
   display: block;
     background-position: center;
     background-size:contain
