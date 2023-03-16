@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Book Antiqua';
+  }
+  body {
+    background-color:  #598b92be;
+    font-family: 'Roboto', sans-serif;
+  }
+  nav {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    min-height: 8vh;
+  
+    background-color: #053B47;
+  
+    
+  
+  }
+  
+  .heading {
+  
+    color: #FAF3EE;
+  
+    text-transform: uppercase;
+  
+    letter-spacing: 5px;
+    height:40px;
+    width: 95px;
+    background-image: url(logotexturecropped.jpg);
+    background-size:cover;
+    padding-right: -20px;
+  
+  }
+  
+  .nav-links {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    width: 30%;
+    height: 20px;
+  
+  }
+  .text{
+      
+    display: flex;
+  
+    justify-content: space-around;
+  
+    width: 30%;
+  }
+  
+  .nav-links li {
+  
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+  
+    color: #FAF3EE;
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+   /* font-weight: bold;*/
+  
+    font-size: 14px;
+  
+    padding: 10px 20px;
+    
+  
+  }
+  
+  .nav-links a:hover:not(.active) {
+  
+    background-color: #E8B867;
+  
+  }
+  
+  .nav-links li a.active {
+  
+    background-color: #598B92;
+  
+  }
+  
+  article {
+    padding: 0px 35px 40px 35px; 
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 850px;
+    height: 100%;
+    background-color: #FAF3EE;
+  }
+  .recipe-image {
+    text-align: right;
+    font-size: 12px;
+    color: #8f8f8f;
+  }
+  
+  .recipe-image img {
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+    border-radius: 15px;
+    margin-bottom: 5px;
+  }
+  h1 {
+    padding-top: 50px;
+    padding-bottom: 18px;
+    text-align: center;
+    color: #1B1B1B;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  h2 {padding-top: 30px;
+    padding-bottom: 18px;
+    text-align: center;
+    color: #1B1B1B;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  ul, ol {
+    list-style-position: inside;
+    font-size: 16px;
+    font-weight: 400;
+    color: #39393A;
+  }
+  li {
+    margin-bottom: 28px;
+  }
+  
